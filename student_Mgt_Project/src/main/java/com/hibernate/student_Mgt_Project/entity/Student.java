@@ -65,6 +65,6 @@ public class Student {
 	}
 	@Override
 	public String toString() {
-		return "Student: \nid=" + id + " \nname=" + name + " \ncontact=" + contact + " \naddress=" + address ;
+		return "Student: \nStudent_id=" + id + " \nName=" + name + " \nContact=" + contact + " \nAddress=" + address ;
 	}
 	}
