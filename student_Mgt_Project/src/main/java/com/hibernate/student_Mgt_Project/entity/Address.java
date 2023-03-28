@@ -70,7 +70,7 @@ package com.hibernate.student_Mgt_Project.entity;
 
 	@Override
 	public String toString() {
-		return "Address:  \nAddress_id=" + aid + " \nHouse_no=" + hno + " \nCity=" + city + " \nState=" + state + " \nPin=" + pin ;
+		return "\nAddress_id= " + aid + " \nHouse_no= " + hno + " \nCity= " + city + " \nState= " + state + " \nPin= " + pin ;
 	}
 	
 }
