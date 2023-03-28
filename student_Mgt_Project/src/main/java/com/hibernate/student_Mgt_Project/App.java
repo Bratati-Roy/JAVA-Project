@@ -75,6 +75,10 @@ public class App
 		String state=scan.next();
 		System.out.println("Enter the Pin code:");
 		String pin=scan.next();
+		add.setHno(hno);
+		add.setCity(city);
+		add.setState(state);
+		add.setPin(pin);
 		sdao.updateStudent(id,name,contact,add);
 		 break;
 	  }
@@ -97,9 +101,9 @@ public class App
     	System.out.println("Do you want to continue: y/n");  
 		char c=scan.next().charAt(0);
 		if(c=='n' || c== 'N'){
-			scan.close();
 			break;
-    	}
+    		}
+		scan.close();
     }
 	while(true);
         
